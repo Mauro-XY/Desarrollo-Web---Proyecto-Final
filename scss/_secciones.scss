@@ -1,0 +1,343 @@
+/* --------------------------- SECCIÓN HEADER --------------------------- */
+
+header {
+  h2 {
+    font-size:34px;
+    margin-bottom:-0.1rem; 
+  }
+  hr {
+    margin: 5px 0 5px 0;
+    border-top: 1px solid $blue;
+  }
+}
+
+/* Navbar */
+
+.nav_row {
+  line-height:0px;
+}
+
+nav {
+  ul {
+    text-align:right;
+    margin-right:0px;
+    li {
+      list-style-type:none;
+      margin:0px 8px;
+      position:relative;
+      &:last-child {
+        margin-right:0px;
+      }
+      a {
+        color: $dark;
+        text-decoration:none;
+        font-size:30px;
+      }
+    }
+  }
+}
+
+ul.menu_navegacion {
+  li {
+    display:inline-block;
+    position:relative;
+  }
+}
+
+#current_page {
+  color: $blue;
+}
+
+/* Navbar Desplegable */
+
+.contenedor_navbar_desplegable {
+  display:none;
+}
+
+.btn-basic {
+  background-color: $light;
+  color: $dark;
+  border-color: $blue;
+  border-width:3px;
+}
+
+.btn-azul-menu {
+  @extend .btn-basic;
+  height:50px;
+  font-size:30px;
+  &:focus{
+    background-color: $blue_soft;
+    color: $blue
+  }
+}
+
+.btn-azul-menu-link {
+  @extend .btn-basic;
+  font-size:25px;
+  a:visited {
+    color: $dark;
+  }
+}
+
+.btn-azul-menu-link.current-page {
+  a:visited {
+    color: $blue;
+  }
+}
+
+.nav-link {
+  padding:0;
+}
+
+.btn-block {
+  padding:0;
+  margin:0;
+  margin-top:0.5rem;
+}
+
+/* --------------------------- SECCIÓN INICIO --------------------------- */
+
+/* Imagen con Frase Principal */
+
+.contenedor_frase {
+  margin:auto auto 2rem auto;
+  width:100%;
+  min-height:600px;
+  overflow:hidden;
+  background-image: url('../imagenes/paz_resized.jpg');
+  background-position:center;
+}
+
+.frase {
+  letter-spacing:4.7px;
+  line-height: 70px;
+  text-align:center;
+  padding-top:35px;
+  color: $blue;
+}
+
+/* Pregunta & Respuestas */
+
+.contenedor_pregunta {
+  text-align:center;
+}
+
+ul.respuestas {
+  li {
+    font-size:25px;
+    line-height: 34px;
+  }
+}
+
+ul {
+  span {
+    font-size:29px;
+    font-weight:600;
+  }
+}
+
+ul.ayuda {
+  span {
+    br {
+      display:none;
+    }
+  }
+}
+
+/* --------------------------- SECCIÓN SOBRE MI --------------------------- */
+
+.contenedor_sobre_mi {
+  background-color:$blue_soft;
+  padding:30px 30px 5px 32px;
+  overflow:hidden;
+}
+
+.contenedor_imagen_betina {
+  overflow:hidden;
+  img {
+    width:410px;
+    &:hover {
+      transform:scale(1.05);
+      transition:0.5s ease;
+    }
+  }
+}
+
+.contenedor_soy_betina {
+  h1 {
+    color: $blue_dark;
+  }
+}
+
+.contenedor_descripcion_betina {
+  p {
+    line-height:1.3;
+  }
+}
+
+/* --------------------------- SECCIÓN TERAPIAS --------------------------- */
+
+/* Terapias */
+
+.contenedor_terapias {
+  display:flex;
+  justify-content:space-between;
+  img {
+    width:366px;
+  }
+}
+
+.contenedor_t_individual,.contenedor_t_pareja,.contenedor_t_familiar {
+  width:31%;
+  overflow:hidden;
+  img:hover {
+    transform:scale(1.05);
+    transition:0.5s ease;
+    overflow:hidden;
+  }
+}
+
+.terapias_parrafo {
+  font-size:24px;
+  text-align:center;
+}
+
+/* Covid-19 */
+
+.contenedor_covid {
+  background-color: $blue_soft;
+  text-align:center;
+  padding:20px 150px 25px 150px;
+  margin-top:20px;
+  h1 {
+    margin-bottom:1rem;
+  }
+  p.terapias_parrafo {
+    margin: 0px;
+  }
+}
+
+/* Iconos Covid-19 */
+
+.iconos_covid19 {
+  display:flex;
+  flex-flow:row nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+  margin:1rem 0 1rem 0;
+  i {
+    font-size:50px;
+    color: $blue;
+  }
+}
+
+/* --------------------------- SECCIÓN CONTACTO --------------------------- */
+
+/* Datos Contacto */
+
+#contacto {
+  h1 {
+    text-align:center;
+    color: $blue;
+    margin:1rem 0 2rem 0;
+  }
+}
+
+.contenedor_datos {
+  width:fit-content;
+}
+
+.lista_contacto {
+  li {
+    list-style-type:none;
+    font-weight:600;
+    &:nth-child(2) {
+      font-size:35px;
+    }
+    &:nth-child(5) {
+      font-size:25px;
+    }
+    &:nth-child(9) {
+      font-size:27px;
+    }
+  }
+}
+
+.espacio_contacto {
+  margin-bottom:7px;
+}
+
+/* Iconos Contacto */
+
+#contacto {
+  ul {
+    li {
+      display:inline;
+    }
+  }
+}
+
+@mixin iconos($margin) {
+  color: $blue;
+  font-size:30px;
+  margin: $margin;
+}
+
+.icon-phone {
+  @include iconos(0 10px 0 4px);
+}
+
+.icon-envelope-o {
+  @include iconos(0 10px 0 0);
+}
+
+.icon-map-marker {
+  @include iconos(0 15px 0 7px);
+}
+
+/* Animación Contacto */
+
+@keyframes destacado {
+  0% {color: $dark;}
+  50% {color: $blue;}
+  100% {color: $dark;}
+}
+
+li.telefono {
+  animation-name: destacado;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+}
+
+/* Formulario */
+
+.contenedor_formulario {
+  background-color: $blue_soft;
+  align-items:center;
+  form {
+    padding:10px;
+  }
+}
+
+.btn-azul {
+  background-color: $blue;
+  color: $light;
+  border-color: $blue;
+}
+
+/* --------------------------- SECCIÓN GRACIAS --------------------------- */
+
+.gracias {
+  text-align:center;
+}
+
+/* --------------------------- SECCIÓN FOOTER --------------------------- */
+
+footer {
+  p {
+    margin-top:2rem;
+    font-size:18px;
+    text-align:center;
+  }
+}

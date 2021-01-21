@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang=es>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/iconos.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script rel="stylesheet" src="../js/jquery-3.5.1.slim.min.js"></script>
+    <title>Contacto │ Betina Hay-Daher │ Psicóloga Clínica</title>
+    <meta name="description" content="Betina Hay-Daher brinda atención psicológica personalizada. Teléfono: 11-5311-0515. 
+    Piscóloga Clínica en la Ciudad de Buenos Aires.">
+    <meta name="keywords" content="BETINA, BETINA HAY DAHER, BETINA HAYDAHER, BETINA PSICOLOGA, BETINA PSICÓLOGA, PSICOLOGA,
+    PSICÓLOGA, PSICOLOGÍA, PSICOLOGA CLÍNICA, PSICOLOGO CLÍNICO, PSICOLOGIA BUENOS AIRES, PSICOLOGA BUENOS AIRES, 
+    PSICOLOGO BUENOS AIRES, PSICOLOGA EN BUENOS AIRES, PSICÓLOGA EN BUENOS AIRES, PSICOLOGA EN RECOLETA, PSICOLOGÍA RECOLETA">
+  </head>
+
+  <body>
+    <div class="container">
+
+      <!-- HEADER -->
+      <header>
+        <div class="row">
+          <div class="col-12">
+            <h2><strong>Betina Hay-Daher</strong></h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 col-lg-5">
+            <h3>Psicóloga Clínica</h3>
+          </div>
+          <div class="col-12 d-lg-none">
+            <hr>
+          </div>
+          <div class="col-md-12 col-lg-7">
+
+            <!-- Navbar -->
+            <nav>
+
+              <!-- Navbar Estática -->
+              <div class="contenedor_navbar_estatica">
+                <ul class="menu_navegacion">
+                <li><a href="../index.html" target="_self">Inicio</a></li>
+                <li><a href="sobre_mi.html" target="_self">Sobre mi</a></li>
+                <li><a href="terapias.html" target="_self">Terapias</a></li>
+                <li><a id="current_page" href="contacto.html" target="_self">Contacto</a></li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      
+        <!-- Navbar Desplegable -->
+        <nav>
+          <div class="contenedor_navbar_desplegable">
+            <button class="navbar-toggler btn btn-block btn-azul-menu" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              Menu
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active btn btn-block btn-azul-menu-link"><a class="nav-link" href="../index.html" target="_self">Inicio</a></li>
+                <li class="nav-item btn btn-block btn-azul-menu-link"><a class="nav-link" href="sobre_mi.html" target="_self">Sobre mi</a></li>
+                <li class="nav-item btn btn-block btn-azul-menu-link"><a class="nav-link" href="terapias.html" target="_self">Terapias</a></li>
+                <li class="nav-item btn btn-block btn-azul-menu-link current-page"><a class="nav-link" href="contacto.html" target="_self">Contacto</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+
+        <!-- CONTACTO -->
+        <section id="contacto">
+
+          <!-- Datos de Contacto -->
+          <div class="row">
+            <div class="col-12">
+              <h1>
+                <strong>Contacto</strong>
+              </h1>
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="col-12 col-sm-5 offset-sm-2 col-md-5 offset-md-3 col-lg-5 offset-lg-0">
+              <div class="contenedor_datos">
+                <ul class="lista_contacto">
+                  <i class="icon-phone"></i><li class="telefono">11-5311-0515</li><br>
+                  <i class="icon-envelope-o"></i><li>Beahaydaher@hotmail.com</li><br>
+                  <div class="espacio_contacto"></div>
+                  <i class="icon-map-marker"></i><li>Recoleta, Capital Federal.</li><br>
+                </ul>
+              </div>
+            </div>
+
+            <br>
+            
+            <!-- Formulario de Contacto -->
+            <div class="col-md-12 col-lg-7">
+              <div class="contenedor_formulario">
+                <form name="formulario_name" action="gracias.html" method="GET">
+                   <!-- Utilizé GET para que no tire error cuando redireccione a "gracias.html" -->
+                  <div class="form-group">
+                    <input type="text" class="form-control" id="nombre" name="nombre_name" placeholder="Nombre" required>
+                  </div>
+                  <div class="form-group">
+                    <input type="email" class="form-control" id="email" name="email_name" placeholder="Email" required>
+                  </div>
+                  <div class="form-group">
+                    <textarea class="form-control" id="mensaje" name="mensaje_name" placeholder="Mensaje" required></textarea>
+                  </div>
+                  <div class="form-group">
+                    <input class="btn btn-azul btn-block" type="submit" name="submit_name" value="Enviar">
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          
+        </section>
+      </main>
+
+      <!-- FOOTER -->
+      <footer>
+        <p>Copyright 2020 &copy; Betina Hay-Daher</p>
+      </footer>
+    
+    <!-- Fin del Container -->
+    </div>
+
+    <script rel="stylesheet" src="../js/popper.min.js"></script>
+    <script rel="stylesheet" src="../js/bootstrap.min.js"></script>
+
+  </body>
+</html>

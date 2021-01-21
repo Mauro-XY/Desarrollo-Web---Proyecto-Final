@@ -1,0 +1,80 @@
+// -- ATRIBUTOS GLOBALES --
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(../fonts/Montserrat-Regular.ttf) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+body {
+  font-family: 'Montserrat Regular', sans-serif, Arial;
+  padding:1rem;
+  min-width:321px;
+}
+
+header, main, main section {
+display:contents;
+}
+
+*{
+padding:0px;
+margin:0px;
+}
+
+// Títulos
+
+h1 {
+  font-size:47px;
+  font-weight:400;
+}
+
+h2 {
+  font-weight:500;
+  font-size:36px;
+
+  &.blue {
+    text-align:center;
+    margin-top:10px;
+  }
+  
+}
+
+h3 {
+  font-size:30px;
+  font-weight:400;
+}
+
+// Párrafos
+
+p {
+  font-size:25px;
+}
+
+// Links
+
+a {
+  text-decoration:none;
+
+  &:visited {
+    color: $dark;
+  }
+
+  &:hover{
+    color: $blue;
+    transition:0.5s;
+    text-decoration:none;
+  }
+
+  &:active{
+    color: $blue_dark;
+  }
+  
+}
+
+
+
+
+

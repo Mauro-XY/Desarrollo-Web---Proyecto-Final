@@ -1,0 +1,362 @@
+// -- MEDIA QUERIES --
+
+@media only screen and (max-width:1200px) {
+
+  // Sobre Mi 
+
+  .contenedor_sobre_mi{
+    padding:30px;
+  }
+  .contenedor_imagen_betina {
+    img {
+      width:350px;
+    }
+  }
+  .contenedor_soy_betina {
+    h1 {
+      font-size:45px;
+    }
+  }
+  .contenedor_descripcion_betina {
+    p {
+      line-height:1.2;
+      font-size:22px;
+      margin-bottom:0;
+    }
+  }
+
+  // Terapias 
+
+  .contenedor_terapias {
+    br {
+      display:none;
+    }
+  }
+
+}
+
+@media only screen and (max-width:992px) {
+
+  // Header 
+
+  header {
+    h2 {
+      text-align:center;
+    }
+    h3 {
+      text-align:center;
+      color: $blue;
+    }
+    nav {
+      ul {
+      text-align: center;
+      margin-block-end:10px;
+        li {
+          margin: 0px 16px;
+        }
+      }
+    }
+  }
+
+  // Inicio 
+
+  .contenedor_frase {
+    margin: auto auto 1rem auto;
+  }
+  .contenedor_pregunta {
+    h3 {
+      margin-bottom: 1rem;
+    }
+  }
+  .contenedor_ayuda {
+    text-align:center;
+  }
+
+  // Sobre Mi 
+
+  .contenedor_sobre_mi {
+    text-align:center;
+  }
+  .contenedor_imagen_betina {
+    img {
+      width:400px;
+    }
+  }
+  .contenedor_soy_betina {
+    h1 {
+      margin: 20px 0 15px 0;
+    }
+  }
+
+  // Terapias 
+
+  .contenedor_terapias {
+    img {
+      width:270px;
+    }
+    p {
+      font-size:23px;
+      line-height:1.4;
+    }
+  }
+
+  // Covid-19 
+
+  .contenedor_covid {
+    padding:20px 75px 25px 75px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+
+  // Header 
+
+  nav {
+    ul {
+      li {
+        margin: 0px 10px;
+      }
+    }
+  }
+
+  // Terapias 
+
+  .contenedor_terapias{
+    flex-wrap:wrap;
+      img {
+        width:350px;
+      }
+  }
+  .contenedor_t_individual,.contenedor_t_pareja,.contenedor_t_familiar{
+    width:100%;
+    text-align:center;
+  }
+  .contenedor_terapias {
+    br {
+      display:block;
+    }
+  }
+
+  // Covid-19 
+
+  .contenedor_covid {
+    padding:20px 45px 25px 45px;
+  }
+}
+
+@media only screen and (max-width:576px) {
+
+  // Header 
+
+  ul.respuestas {
+    li {
+      font-size:20px;
+    }
+  }
+
+  // Navbar 
+
+  header {
+    hr {
+      display:none;
+    }
+    .contenedor_navbar_estatica {
+      display:none;
+    }
+    .contenedor_navbar_desplegable {
+      display:block;
+      margin-bottom:1.4rem;
+    }
+  }
+
+  // Sobre Mi 
+
+  .contenedor_imagen_betina {
+    img {
+      width:330px;
+      text-align:center;
+    }
+  }
+
+  // Covid-19 
+
+  .contenedor_covid {
+    padding:20px 15px 25px 15px;
+  }
+
+  // Contacto 
+
+  ul.lista_contacto {
+    li:nth-child(5) {
+      font-size:20px;
+    }
+    li:nth-child(9) {
+      font-size:23px;
+    }
+    .icon-envelope-o {
+      color: $blue;
+      font-size:20px;
+      margin-right:10px;
+   }
+    .icon-map-marker {
+      color: $blue;
+      font-size:25px;
+      margin:0 15px 0 7px;
+    }
+  }
+}
+
+@media only screen and (max-width:460px) {
+
+  // Inicio 
+
+  ul.respuestas {
+    li {
+      br {
+        display:none;
+      }
+    }
+  }
+  ul.ayuda {
+    span {
+      br {
+        display:block;
+      }
+    }
+  }
+
+  // Sobre Mi 
+
+  .contenedor_sobre_mi{
+    padding:20px;
+  }
+  .contenedor_imagen_betina {
+    img {
+      width:317px;
+    }
+  }
+  .contenedor_soy_betina {
+    h1 {
+      font-size:40px;
+    }
+  }
+  .contenedor_descripcion_betina {
+    p {
+      line-height:1.3;
+      font-size:20px;
+    }
+  }
+
+  // Covid-19 
+
+  .contenedor_covid {
+    h1 {
+      font-size:43px;
+    }
+    p.terapias_parrafo {
+      font-size:22px;
+      line-height:1.3;
+    }
+  }
+
+}
+
+@media only screen and (max-width:423px) {
+
+  // Inicio 
+
+  h1.frase{
+    padding-top:50px;
+    strong {
+      color: $light;
+    }
+  }
+
+  // Sobre Mi 
+
+  .contenedor_sobre_mi{
+    padding:15px;
+  }
+  .contenedor_imagen_betina {
+    img {
+      width:255px;
+    }
+  }
+  .contenedor_descripcion_betina {
+    p {
+      line-height:1.4;
+      span {
+        display:none;
+      }
+    }
+  }
+
+  // Terapias 
+
+  .contenedor_terapias {
+    br {
+      display:none;
+    }
+  }
+
+  // Covid-19 
+
+  .contenedor_covid {
+    span {
+      display:none;
+    }
+  }
+
+  // Contacto 
+
+  ul.lista_contacto {
+    i.icon-envelope-o {
+      display:none;
+    }
+    li:nth-child(5) {
+      font-size:19.5px;
+    }
+    li:nth-child(9) {
+      font-size:18px;
+    }
+  }
+  .icon-envelope-o{
+    color: $blue;
+    font-size:20px;
+    margin-right:10px;
+  }
+  .icon-map-marker{
+    color: $blue;
+    font-size:20px;
+    margin:0 10px 0 7px;
+  }
+
+}
+
+@media only screen and (max-width:346px) {
+
+  // Header 
+
+  header {
+    h2 {
+      font-size:31px;
+    }
+  }
+
+  // Sobre Mi 
+
+  .contenedor_imagen_betina {
+    img {
+      width:227px;
+    }
+  }
+
+  // Footer
+
+  footer {
+    p {
+      font-size:16px;
+    }
+  }
+
+}
