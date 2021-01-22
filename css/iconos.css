@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?gy3n3c');
-  src:  url('../fonts/icomoon.eot?gy3n3c#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?gy3n3c') format('truetype'),
-    url('../fonts/icomoon.woff?gy3n3c') format('woff'),
-    url('../fonts/icomoon.svg?gy3n3c#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?3qqb5i');
+  src:  url('../fonts/icomoon.eot?3qqb5i#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?3qqb5i') format('truetype'),
+    url('../fonts/icomoon.woff?3qqb5i') format('woff'),
+    url('../fonts/icomoon.svg?3qqb5i#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -34,12 +34,24 @@
 .icon-map-marker:before {
   content: "\f041";
 }
+.icon-twitter-square:before {
+  content: "\f081";
+}
+.icon-facebook-square:before {
+  content: "\f082";
+}
+.icon-linkedin-square:before {
+  content: "\f08c";
+}
 .icon-phone:before {
   content: "\f095";
+}
+.icon-instagram:before {
+  content: "\f16d";
 }
 .icon-skype:before {
   content: "\f17e";
 }
-.icon-whatsapp1:before {
+.icon-whatsapp:before {
   content: "\f232";
 }

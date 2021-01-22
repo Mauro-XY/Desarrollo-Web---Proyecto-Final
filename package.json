@@ -2,7 +2,7 @@
   "author": "Mauro Zaffuto",
   "description": "Proyecto Final",
   "license": "MIT",
-  "name": "proyecto-final",
+  "name": "desarrollo_web__proyecto_final",
   "scripts": {
     "watch:css": "nodemon -e scss -x \"npm run build:css\"",
     "build:css": "node-sass --output-style compressed scss/imports.scss css/style.css && npm run css-autoprefixer",

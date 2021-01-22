@@ -1,8 +1,42 @@
+/* --------------------------- BANNER DE CONTACTO --------------------------- */
+
+.banner_contacto {
+  width: 100%;
+  min-width:320px;
+  height: fit-content;
+  background-color: $blue_soft;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+    p {
+      color: $blue;
+      margin: 5px 0px;
+      text-align: center;
+      font-size: 18px;
+      letter-spacing:1px;
+    }
+    a {
+      color: $blue;
+      &:hover {
+        color: $dark;
+      }
+    }
+    br {
+      display:none;
+    }
+}
+
+.banner_contacto_reducido {
+  @extend .banner_contacto;
+  display: none;
+}
+
 /* --------------------------- SECCIÓN HEADER --------------------------- */
 
 header {
   h2 {
-    font-size:34px;
+    margin-top: 35px;
+    font-size: 34px;
     margin-bottom:-0.1rem; 
   }
   hr {
@@ -335,9 +369,34 @@ li.telefono {
 /* --------------------------- SECCIÓN FOOTER --------------------------- */
 
 footer {
-  p {
-    margin-top:2rem;
-    font-size:18px;
+width:100%;
+min-width: 320px;
+background-color: $blue_soft;
+position:absolute;
+left: 0;
+margin-top:2rem;
+padding-top:20px;
+  .iconos_footer {
+    padding-left:40px;
+  }
+  i {
     text-align:center;
+    font-size: 35px;
+    letter-spacing:40px;
+    color:$blue;
+    &:hover {
+      color: $dark;
+    }
+  }
+  hr {
+    margin: 10px 500px 0 500px;
+    color: $dark;
+  }
+  p {
+    margin: 10px 0px;
+    font-size:18px;
+    letter-spacing:3px;
+    text-align:center;
+    color: $blue;
   }
 }
