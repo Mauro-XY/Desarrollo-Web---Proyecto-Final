@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="../css/iconos.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../js/animate.min.css">
     <script rel="stylesheet" src="../js/jquery-3.5.1.slim.min.js"></script>
     <title>Sobre Mi │ Betina Hay-Daher │ Psicóloga Clínica</title>
     <meta name="description" content="Betina Hay-Daher brinda atención psicológica personalizada. Piscóloga Clínica en la Ciudad de Buenos Aires.">
@@ -84,18 +85,18 @@
               <!-- Descripción Betina -->
               <div class="col-lg-7">
                 <div class="contenedor_soy_betina">
-                  <h1 class="blue_dark">
+                  <h1 class="blue_dark wow animate__animated animate__fadeInDown">
                     Hola, soy Betina
                   </h1>
                 </div>
                 <div class="contenedor_descripcion_betina">
-                  <p>
+                  <p class="wow animate__animated animate__fadeIn">
                     Trabajando juntos, vamos a lograr que puedas obtener la claridad y serenidad 
                     necesarias para tomar las decisiones correctas, resolver problemas, y afrontar 
                     adversidades. 
                     <br>
                     <br>
-                    <span>
+                    <span class="wow animate__animated animate__fadeIn">
                       Me gradué en la UBA y cuento con muchos años de experiencia para ayudarte. Creo 
                       firmemente que una vez que las personas tienen a su disposición las herramientas 
                       emocionales correctas, pueden alcanzar sus objetivos, sanar heridas y lograr una 
@@ -105,13 +106,21 @@
                 </div>
               </div>
             </div>
+            <div class="row">
+              <div class="col-12">
+                <button class="btn btn-azul-contacto wow animate__animated animate__pulse">
+                  Click AQUÍ para Contactarme
+                </button>
+              </div>
+
+            </div>
           </div>
         </section>
 
       </main>
 
       <!-- FOOTER -->
-      <footer class="fixed-bottom">
+      <footer>
         <p>Copyright 2020 &copy; Betina Hay-Daher</p>
       </footer>
     
@@ -120,6 +129,10 @@
 
     <script rel="stylesheet" src="../js/popper.min.js"></script>
     <script rel="stylesheet" src="../js/bootstrap.min.js"></script>
+    <script src="../js/wow.min.js"></script>
+    <script>
+     new WOW().init();
+    </script>
 
   </body>
 </html>

@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/iconos.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="js/animate.min.css">
     <script rel="stylesheet" src="js/jquery-3.5.1.slim.min.js"></script>
     <title>Inicio │ Betina Hay-Daher │ Psicóloga Clínica</title>
     <meta name="description" content="Betina Hay-Daher brinda atención psicológica personalizada. Piscóloga Clínica en la Ciudad de Buenos Aires.">
@@ -85,7 +86,11 @@
 
           <!-- Imagen con Frase Principal -->
           <div class="contenedor_frase">
-            <h1 class="frase">Claridad y serenidad<br>en tu <strong>interior.</strong></h1>
+            <h1 class="frase">
+              <span class="wow animate__animated animate__fadeIn">Claridad</span> 
+              <span class="wow animate__animated animate__fadeIn animate__delay-1s">y serenidad</span>
+              <span class="wow animate__animated animate__fadeIn animate__delay-3s"><br>en tu <strong>interior.</strong></span>
+            </h1>
           </div>
           
           <!-- Pregunta y Respuestas -->
@@ -98,12 +103,12 @@
             <div class="offset-md-2 col-md-9 offset-lg-0 col-lg-7">
               <div class="contenedor_respuestas">
                 <ul class="respuestas">
-                  <li>Sentis que stress y la ansiedad te abruman.</li>
-                  <li>Bien en el aspecto laboral, pero no así en tu<br>vida personal.</li>
-                  <li>Te encontras en una relación con problemas.</li>
-                  <li>Soles ayudar y guiar a los demas, pero<br> quisieras que alguien este ahí 
-                          para vos.</li>
-                  <li>Hay una o dos cosas que no te permiten ser<br> plenamente feliz.</li>
+                  <li class="wow animate__animated animate__fadeIn">Sentis que stress y la ansiedad te abruman.</li>
+                  <li class="wow animate__animated animate__fadeIn">Bien en el aspecto laboral, pero no así en tu<br>vida personal.</li>
+                  <li class="wow animate__animated animate__fadeIn">Te encontras en una relación con problemas.</li>
+                  <li class="wow animate__animated animate__fadeIn">Soles ayudar y guiar a los demas, pero<br> quisieras que alguien este ahí 
+                  para vos.</li>
+                  <li class="wow animate__animated animate__fadeIn">Hay una o dos cosas que no te permiten ser<br> plenamente feliz.</li>
                 </ul>
               </div>
             </div>
@@ -111,8 +116,8 @@
           <div class="row">
             <div class="col-md-12 offset-lg-5 col-lg-7">
               <div class="contenedor_ayuda">
-                <ul class="ayuda">
-                  <span>Si es así,<br> puedo ayudarte.</span>
+                <ul class="ayuda wow animate__animated animate__fadeInUp">
+                  <a href="pages/contacto.html" target="_self"><span>Si es así,<br> puedo ayudarte.</span></a>
                 </ul>
               </div>
             </div>
@@ -133,11 +138,15 @@
         <a href="#"><i class="icon-linkedin-square"></i></a>
       </div>
       <hr>
-      <p>Copyright 2020 &copy; Betina Hay-Daher</p>
+      <p>Copyright 2021 &copy; Betina Hay-Daher</p>
     </footer>
     
     <script rel="stylesheet" src="js/popper.min.js"></script>
     <script rel="stylesheet" src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+     new WOW().init();
+    </script>
 
   </body>
 </html>

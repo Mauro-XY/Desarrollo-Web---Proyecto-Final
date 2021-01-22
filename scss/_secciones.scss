@@ -184,6 +184,19 @@ ul.ayuda {
   background-color:$blue_soft;
   padding:30px 30px 5px 32px;
   overflow:hidden;
+    .btn-azul-contacto {
+      width: 100%;
+      outline: 3px solid $blue;
+      margin-bottom: 15px;
+      color:$blue;
+      font-size: 25px;
+      font-weight:bold;
+      letter-spacing: 5px;
+      &:hover {
+        background-color: $blue;
+        color:$light;
+      }
+    }
 }
 
 .contenedor_imagen_betina {
@@ -384,6 +397,7 @@ padding-top:20px;
     font-size: 35px;
     letter-spacing:40px;
     color:$blue;
+    transition:0.5s;
     &:hover {
       color: $dark;
     }

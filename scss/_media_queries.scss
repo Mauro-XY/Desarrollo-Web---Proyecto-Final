@@ -6,6 +6,10 @@
 
   .contenedor_sobre_mi{
     padding:30px;
+    .btn-azul-contacto {
+      margin-bottom: 0px;
+      margin-top: 30px;
+    }
   }
   .contenedor_imagen_betina {
     img {
@@ -316,6 +320,12 @@
 
   .contenedor_sobre_mi{
     padding:15px;
+    .btn-azul-contacto {
+      margin-bottom: 15px;
+      margin-top: 0px;
+      font-size: 22px;
+      letter-spacing: 3px;
+    }
   }
   .contenedor_imagen_betina {
     img {
@@ -399,8 +409,14 @@ footer {
     }
   }
 
-  // Sobre Mi 
-
+  // Sobre Mi
+  
+  .contenedor_sobre_mi{
+    .btn-azul-contacto {
+      font-size: 20px;
+      letter-spacing: 3px;
+    }
+  }
   .contenedor_imagen_betina {
     img {
       width:227px;
