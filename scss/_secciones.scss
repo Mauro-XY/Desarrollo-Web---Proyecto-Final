@@ -1,3 +1,29 @@
+/* --------------------------- Tabla de Contenidos --------------------------- */
+
+//    1. Banner de Contacto
+// 
+//    2. Header
+//       2.1 Navbar
+//       2.2 Navbar Desplegable
+// 
+//    3. Sección Inicio
+//       3.1 Imagen con Frase Principal
+//       3.2 Preguntas & Respuestas
+// 
+//    4. Sección Sobre Mi
+// 
+//    5. Sección Terapias
+//       5.1 Covid19
+// 
+//    6. Sección Contacto
+//       6.1 Animación Contacto
+//       6.2 Formulario
+// 
+//    7. Sección Gracias
+// 
+//    8. Footer
+
+
 /* --------------------------- BANNER DE CONTACTO --------------------------- */
 
 .banner_contacto {
@@ -31,7 +57,7 @@
   display: none;
 }
 
-/* --------------------------- SECCIÓN HEADER --------------------------- */
+/* --------------------------- HEADER --------------------------- */
 
 header {
   h2 {
@@ -379,16 +405,16 @@ li.telefono {
   text-align:center;
 }
 
-/* --------------------------- SECCIÓN FOOTER --------------------------- */
+/* --------------------------- FOOTER --------------------------- */
 
 footer {
-width:100%;
-min-width: 320px;
-background-color: $blue_soft;
-position:absolute;
-left: 0;
-margin-top:2rem;
-padding-top:20px;
+  width:100%;
+  min-width: 320px;
+  background-color: $blue_soft;
+  position:absolute;
+  left: 0;
+  margin-top:2rem;
+  padding-top:20px;
   .iconos_footer {
     padding-left:40px;
   }
